@@ -1,0 +1,163 @@
+
+    
+     [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "name": "Dr. Hari Kafle",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg",
+            "specialization": "Surgeon",
+            "experience":"6 years",
+            "present_city":"Kathmandu",
+            "hospital":"Bir Hospital",
+            "contact": "056-525397"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "name": "Dr.Bishal Gawalli",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg",
+            "specialization": "Psychiatrist",
+            "experience":"4 years",
+            "present_city":"Kathmandu",
+            "hospital":"Medicity Hospital",
+            "contact": "056-545397"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "name": "Dr.Pradeep Kumar Wango",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg",
+            "specialization": "Cardiologist",
+            "experience":"6 years",
+            "present_city":"Chitwan",
+            "hospital":"Bharatpur Hospital",
+            "contact": "01-5555555, 01-5544477, 01-5535147"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "name": "Dr.Mukesh Yadav",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg",
+            "specialization": "Dermatologist",
+            "experience":"5 year",
+            "present_city":"Kathmandu",
+            "hospital":"Teaching Hospital",
+            "contact": "061-541085"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "name": "Dr.George",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg",
+            "specialization": "Endocrinologist",
+            "experience":"6 years",
+            "present_city":"Dharan",
+            "hospital":"Dharan Hospital",
+            "contact": "061-541085"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "name": "Dr.Sumit Sah",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg",
+            "specialization": "Nephrologist",
+            "experience":"6 years",
+            "present_city":"Kathmandu",
+            "hospital":"Bir Hospital",
+            "contact": "061-541085"
+        },
+        {
+            "id": 13,
+            "email": "rachel.howell@reqres.in",
+            "name": "Dr.Ishan Devkota",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg",
+            "specialization": "Surgeon",
+            "experience":"6 years",
+            "present_city":"Kathmandu",
+            "hospital":"Bir Hospital",
+            "contact": "061-541085"
+        },
+        {
+            "id": 14,
+            "email": "rachel.howell@reqres.in",
+            "name": "Dr.Prabesh ",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg",
+            "specialization": "Surgeon",
+            "experience":"6 years",
+            "present_city":"Kathmandu",
+            "hospital":"Bir Hospital",
+            "contact": "061-541085"
+        },
+        {
+            "id": 15,
+            "email": "rachel.howell@reqres.in",
+            "name": "Dr.Rachel Green",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg",
+            "specialization": "Surgeon",
+            "experience":"6 years",
+            "present_city":"Kathmandu",
+            "hospital":"Bir Hospital",
+            "contact": "061-541085"
+        },
+        {
+            "id": 16,
+            "email": "george.edwards@reqres.in",
+            "name": "Dr.Hemanth",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg",
+            "specialization": "Endocrinologist",
+            "experience":"6 years",
+            "present_city":"Dharan",
+            "hospital":"Dharan Hospital",
+            "contact": "061-54084"
+
+        },
+        {
+            "id": 17,
+            "email": "george.edwards@reqres.in",
+            "name": "Dr.Ishan Devkota",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg",
+            "specialization": "Endocrinologist",
+            "experience":"6 years",
+            "present_city":"Dharan",
+            "hospital":"Dharan Hospital",
+            "contact": "061-541057"
+        },
+        {
+            "id": 18,
+            "email": "george.edwards@reqres.in",
+            "name": "Dr.John",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg",
+            "specialization": "Endocrinologist",
+            "experience":"4 years",
+            "present_city":"Dharan",
+            "hospital":"Dharan Hospital",
+            "contact": "061-5410486"
+        },
+        {
+            "id": 19,
+            "email": "george.edwards@reqres.in",
+            "name": "Dr.Mack",
+            
+            "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg",
+            "specialization": "Eye specaliest",
+            "experience":"6 years",
+            "present_city":"Dharan",
+            "hospital":"Dharan Hospital",
+            "contact": "061-543485"
+        }
+
+    ]
+

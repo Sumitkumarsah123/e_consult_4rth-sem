@@ -1,0 +1,325 @@
+{
+    "data": [
+        {
+            "_id": "5e7cae178841fc07fcb2b96d",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    28.26689,
+                    83.96851
+                ]
+            },
+            "is_full": false,
+            "government_approved": false,
+            "name": "AAMA BAA HOSPITAL AND RESEARCH CENTER",
+            "contact_person": "Dr. Sandip Gorkhali",
+            "contact_person_number": "9805854242",
+            "address": "",
+            "phone": "064-420250,9805854242",
+            "website": "",
+            "email": "",
+            "notes": "P.P.E ,they are planning to set a room for covid-19",
+            "hospital_id": "a281216f-5d5c-47cc-9f99-b5924518fcfd",
+            "state": "4",
+            "image_url": "",
+            "source": "Hamro LifeBank",
+            "capacity": {
+                "beds": "15",
+                "ventilators": "no",
+                "isolation_beds": "",
+                "occupied_beds": "",
+                "doctors": "1",
+                "nurses": "15"
+            },
+            "created_at": "2020-03-26T13:28:55.602Z",
+            "updated_at": "2020-03-26T14:01:07.457Z",
+            "__v": 0
+        },
+        {
+            "_id": "5e7cae178841fc07fcb2b95f",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    28.26689,
+                    83.96851
+                ]
+            },
+            "is_full": false,
+            "government_approved": false,
+            "name": "AAPPIPAL HOSPITAL",
+            "contact_person": "",
+            "contact_person_number": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "email": "",
+            "notes": "",
+            "hospital_id": "cbef59dd-63ef-4f4c-8d1a-3348bc256358",
+            "state": "4",
+            "image_url": "",
+            "source": "Hamro LifeBank",
+            "capacity": {
+                "beds": "",
+                "ventilators": "",
+                "isolation_beds": "",
+                "occupied_beds": "",
+                "doctors": "",
+                "nurses": ""
+            },
+            "created_at": "2020-03-26T13:28:55.602Z",
+            "updated_at": "2020-03-26T13:28:55.602Z",
+            "__v": 0
+        },
+        {
+            "_id": "5e7cb020a1de060da4f597c1",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    28.60194,
+                    81.63389
+                ]
+            },
+            "is_full": false,
+            "government_approved": false,
+            "name": "AATHBISHKOT NAGAR HOSPITAL",
+            "contact_person": "",
+            "contact_person_number": "",
+            "address": "",
+            "phone": "",
+            "website": "",
+            "email": "",
+            "notes": "",
+            "hospital_id": "934126eb-7979-45ce-827d-62e1d19f5fb5",
+            "state": "6",
+            "image_url": "",
+            "source": "Hamro LifeBank",
+            "capacity": {
+                "beds": "",
+                "ventilators": "",
+                "isolation_beds": "",
+                "occupied_beds": "",
+                "doctors": "",
+                "nurses": ""
+            },
+            "created_at": "2020-03-26T13:37:36.403Z",
+            "updated_at": "2020-03-26T13:37:36.403Z",
+            "__v": 0
+        },
+        {
+            "_id": "5e7cb23f9208a56b30101806",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    85.2722472,
+                    27.4695853
+                ]
+            },
+            "is_full": false,
+            "government_approved": false,
+            "name": "ACHAAM DISTRICT HOSPITAL",
+            "contact_person": "",
+            "contact_person_number": "",
+            "address": "Achaam",
+            "phone": "097-620188",
+            "website": "",
+            "email": "",
+            "notes": "",
+            "hospital_id": "23b57a74-50f6-456f-be15-b1a41e5b2f4c",
+            "state": "7",
+            "image_url": "",
+            "source": "Hamro LifeBank",
+            "capacity": {
+                "beds": "15",
+                "ventilators": "0",
+                "isolation_beds": "10-11",
+                "occupied_beds": "",
+                "doctors": "4",
+                "nurses": "9"
+            },
+            "created_at": "2020-03-26T13:46:39.399Z",
+            "updated_at": "2020-03-31T18:21:49.347Z",
+            "__v": 0
+        },
+        {
+            "_id": "5e7ca6eb6fb7a96ba4b5f9c4",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    26.71828,
+                    85.90646
+                ]
+            },
+            "is_full": false,
+            "government_approved": false,
+            "name": "ADVANCE MEDI CARE HOSPITAL",
+            "contact_person": "",
+            "contact_person_number": "",
+            "address": "",
+            "phone": "051-525316",
+            "website": "",
+            "email": "",
+            "notes": "",
+            "hospital_id": "1770f61e-0738-444c-9b7e-14db1fa250f8",
+            "state": "2",
+            "image_url": "",
+            "source": "Hamro LifeBank",
+            "capacity": {
+                "beds": "",
+                "ventilators": "",
+                "isolation_beds": "",
+                "occupied_beds": "",
+                "doctors": "",
+                "nurses": ""
+            },
+            "created_at": "2020-03-26T12:58:19.163Z",
+            "updated_at": "2020-03-26T12:58:19.163Z",
+            "__v": 0
+        },
+        {
+            "_id": "5e7ca50e0126e31e48844d4f",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    85.2722472,
+                    27.4695853
+                ]
+            },
+            "is_full": false,
+            "government_approved": false,
+            "name": "ADVANCE MULTISPECIALITY HOSPITAL PVT. LTD",
+            "contact_person": "",
+            "contact_person_number": "",
+            "address": "Damak",
+            "phone": "023-583999",
+            "website": "",
+            "email": "",
+            "notes": "",
+            "hospital_id": "ee10e538-282d-43ce-8100-5e4c7d838699",
+            "state": "1",
+            "image_url": "",
+            "source": "Hamro LifeBank",
+            "capacity": {
+                "beds": "",
+                "ventilators": "",
+                "isolation_beds": "",
+                "occupied_beds": "",
+                "doctors": "",
+                "nurses": ""
+            },
+            "created_at": "2020-03-26T12:50:22.792Z",
+            "updated_at": "2020-03-26T15:30:23.392Z",
+            "__v": 0
+        },
+        {
+            "_id": "5e7caeaf099e2f2470947686",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    27.70055,
+                    83.44836
+                ]
+            },
+            "is_full": false,
+            "government_approved": false,
+            "name": "ALIVE HOSPITAL AND TRAUMA CENTRE",
+            "contact_person": "",
+            "contact_person_number": "",
+            "address": "",
+            "phone": "056-525397",
+            "website": "",
+            "email": "",
+            "notes": "",
+            "hospital_id": "f954f8ca-0426-40a0-ab5e-ee3de93a24f2",
+            "state": "5",
+            "image_url": "",
+            "source": "Hamro LifeBank",
+            "capacity": {
+                "beds": "50",
+                "ventilators": "",
+                "isolation_beds": "",
+                "occupied_beds": "8",
+                "doctors": "3",
+                "nurses": "12"
+            },
+            "created_at": "2020-03-26T13:31:27.745Z",
+            "updated_at": "2020-03-26T13:31:27.745Z",
+            "__v": 0
+        },
+        {
+            "_id": "5e7c9c79d0dbe04e3090af25",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    27.70169,
+                    85.3206
+                ]
+            },
+            "is_full": false,
+            "government_approved": false,
+            "name": "ALKA HOSPITAL",
+            "contact_person": "Rojika pradhan",
+            "contact_person_number": "9801206993",
+            "address": "Jawalakhel, Lalitpur",
+            "phone": "01-5555555, 01-5544477, 01-5535147",
+            "website": "http://alkahospital.com",
+            "email": "info@alkahospital.com",
+            "notes": "",
+            "hospital_id": "796bdfce-3bb7-4989-abea-8b56afe9efd1",
+            "state": "3",
+            "image_url": "",
+            "source": "Hamro LifeBank",
+            "capacity": {
+                "beds": "",
+                "ventilators": "",
+                "isolation_beds": "",
+                "occupied_beds": "",
+                "doctors": "",
+                "nurses": ""
+            },
+            "created_at": "2020-03-26T12:13:45.166Z",
+            "updated_at": "2020-03-26T12:13:45.166Z",
+            "__v": 0
+        },
+        
+
+        {
+            "_id": "5e7cae178841fc07fcb2b954",
+            "location": {
+                "type": "Point",
+                "coordinates": [
+                    28.26689,
+                    83.96851
+                ]
+            },
+            "is_full": false,
+            "government_approved": false,
+            "name": "WESTERN REGIONAL HOSPITAL",
+            "contact_person": "",
+            "contact_person_number": "",
+            "address": "Pokhara",
+            "phone": "061-541085",
+            "website": "",
+            "email": "",
+            "notes": "",
+            "hospital_id": "cdbc3965-7710-4541-b06a-3d75d987197d",
+            "state": "4",
+            "image_url": "",
+            "source": "Hamro LifeBank",
+            "capacity": {
+                "beds": "50",
+                "ventilators": "1",
+                "isolation_beds": "",
+                "occupied_beds": "0",
+                "doctors": "",
+                "nurses": "12"
+            },
+            "created_at": "2020-03-26T13:28:55.601Z",
+            "updated_at": "2020-03-26T13:28:55.601Z",
+            "__v": 0
+        }
+    ],
+    "total": 243,
+    "limit": 500,
+    "start": 0,
+    "page": 1
+}
