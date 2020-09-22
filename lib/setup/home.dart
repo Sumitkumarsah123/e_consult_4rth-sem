@@ -1,23 +1,10 @@
 import 'package:flutter/material.dart';
-//import 'package:school/setup/patient/models/message_model.dart';
-//import 'package:school/setup/patient/models/message_model.dart';
-//school/commonComponents/customCard.dart';
+
 import 'package:demo3/setup/patient/screens/HomePage.dart';
-//import 'package:school/setup/patient/screens/ProfilePage.dart';
+
 import 'package:demo3/setup/patient/screens/ChatPage.dart';
 import 'package:demo3/setup/patient/screens/ProfilePage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
-// class MyApp1 extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       debugShowCheckedModeBanner: false,
-//       title: 'Flutter Project',
-//       home: MyHomePage(),
-//     );
-//   }
-// }
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key}) : super(key: key);

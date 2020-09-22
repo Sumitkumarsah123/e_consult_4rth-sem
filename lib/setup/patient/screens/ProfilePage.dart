@@ -33,14 +33,14 @@ class ProfilePage extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       CircleAvatar(
-                        backgroundImage: AssetImage('images/new.jpg'),
+                        backgroundImage: AssetImage('images/0.png'),
                         radius: 70.0,
                       ),
                       SizedBox(
                         height: 10.0,
                       ),
                       Text(
-                        "Prabesh Pokhrel",
+                        "Sumit ",
                         style: TextStyle(
                           fontSize: 24.0,
                           color: Colors.black,

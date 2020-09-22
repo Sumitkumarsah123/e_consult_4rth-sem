@@ -6,9 +6,11 @@ import 'package:flutter/material.dart';
 import 'package:demo3/setup/patient/screens/covid_19/widget/widget.dart';
 import 'package:demo3/setup/patient/screens/covid_19/screen/faqs.dart';
 import 'package:demo3/setup/patient/screens/covid_19/screen/myths.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 //import 'package:demo3/setup/patient/screens/covid_19/widget/widget.dart';
 
-import './form_screen.dart';
+//import './form_screen.dart';
 import './Video.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -16,8 +18,35 @@ class HomeScreen extends StatefulWidget {
   _HomeScreenState createState() => _HomeScreenState();
 }
 
+void _checkCovid(String url) async {
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+//for phone call
+void _makePhoneCall(int number) async {
+  var url = "tel:${number.toString()}";
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+//For viber
+void _launchViber(String url) async {
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
 class _HomeScreenState extends State<HomeScreen> {
-  String _country = 'USA';
+  String _country = 'NEP';
   @override
   Widget build(BuildContext context) {
     final screenHeight = MediaQuery.of(context).size.height;
@@ -64,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 CountryDropdown(
-                  countries: ['CN', 'FR', 'IT', 'UK', 'USA'],
+                  countries: ['CN', 'FR', 'IT', 'UK', 'NEP', 'USA'],
                   country: _country,
                   onChanged: (val) => setState(() => _country = val),
                 ),
@@ -101,7 +130,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
                     FlatButton.icon(
-                      onPressed: () {},
+                      onPressed: () {
+                        _makePhoneCall(1234);
+                      },
                       color: Colors.red,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30.0)),
@@ -115,13 +146,17 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     FlatButton.icon(
-                      onPressed: () {},
+                      onPressed: () {
+                        _launchViber(
+                            'https://invite.viber.com/?g2=AQAmvXtYaOXJSktBo5ZGUatVwyaa1K7KXkDWLWdMyKJfMs8GbSnY5IplkYNTC3iu&lang=en');
+                      },
                       color: Colors.blue,
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30.0)),
-                      icon: const Icon(
-                        Icons.chat_bubble,
+                      icon: FaIcon(
+                        FontAwesomeIcons.viber,
                         color: Colors.white,
+                        // size: size.longestSide * 0.02,
                       ),
                       label: Text(
                         'Send SMS',
@@ -314,8 +349,10 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           color: Colors.transparent,
           onPressed: () {
-            Navigator.push(context,
-                new MaterialPageRoute(builder: (context) => FormScreen()));
+            _checkCovid(
+                'https://www.webmd.com/coronavirus/coronavirus-assessment/default.htm?fbclid=IwAR0uC1El9asTZhYV2Oa5mn_ziy-_T7zMk8mapzBAhHnQe0uYU26aV1FMslI');
+            // Navigator.push(context,
+            //     new MaterialPageRoute(builder: (context) => FormScreen()));
           },
         ),
       ),

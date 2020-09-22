@@ -1,8 +1,3 @@
-//import 'package:demo3/home/home.dart';
-//import 'package:demo3/home/home1.dart';
-//import 'package:demo3/home/home1.dart';
-//import 'package:demo3/setup/patient/screens/covid_19/screen/Video.dart';
-//import 'package:demo3/setup/patient/screens/HomePage.dart';
 import 'package:demo3/setup/home.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:demo3/setup/patient/patient_register.dart';
@@ -51,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
                         FadeAnimation(
                             1,
                             Text(
-                              "Patient Login",
+                              " Login",
                               style:
                                   TextStyle(color: Colors.white, fontSize: 40),
                             )),
@@ -178,11 +173,7 @@ class _LoginPageState extends State<LoginPage> {
                                 SizedBox(
                                   height: 30,
                                 ),
-                                // Text(
-                                //   error,
-                                //   style: TextStyle(
-                                //       color: Colors.red, fontSize: 14),
-                                // ),
+
                                 FadeAnimation(
                                     1.7,
                                     Text(
@@ -274,7 +265,5 @@ class _LoginPageState extends State<LoginPage> {
 
       return (e.message);
     }
-
-    //Navigator.of(context).pushReplacementNamed('');
   }
 }

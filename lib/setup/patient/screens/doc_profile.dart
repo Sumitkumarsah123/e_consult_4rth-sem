@@ -1,11 +1,36 @@
 import 'package:flutter/material.dart';
 import 'package:demo3/setup/patient/models/json_models.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class DetailPage extends StatelessWidget {
+class DetailPage extends StatefulWidget {
   final Users user;
 
   DetailPage(this.user);
 
+  @override
+  _DetailPageState createState() => _DetailPageState();
+}
+
+void _makePhoneCall(int number) async {
+  var url = "tel:${number.toString()}";
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+//For viber
+void _launchViber(String url) async {
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
+  }
+}
+
+class _DetailPageState extends State<DetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +59,7 @@ class DetailPage extends StatelessWidget {
                       ),
                       CircleAvatar(
                         backgroundImage: NetworkImage(
-                          user.avatar,
+                          widget.user.avatar,
                         ),
                         radius: 50.0,
                       ),
@@ -42,7 +67,7 @@ class DetailPage extends StatelessWidget {
                         height: 10.0,
                       ),
                       Text(
-                        user.name,
+                        widget.user.name,
                         style: TextStyle(
                           fontSize: 24.0,
                           color: Colors.white,
@@ -52,7 +77,7 @@ class DetailPage extends StatelessWidget {
                       //   height: 10.0,
                       // ),
                       Text(
-                        user.specialization,
+                        widget.user.specialization,
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w900,
@@ -75,7 +100,9 @@ class DetailPage extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: <Widget>[
                                 FlatButton.icon(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    _makePhoneCall(9779818190311);
+                                  },
                                   color: Colors.red,
                                   shape: RoundedRectangleBorder(
                                       borderRadius:
@@ -90,17 +117,21 @@ class DetailPage extends StatelessWidget {
                                           fontWeight: FontWeight.bold)),
                                 ),
                                 FlatButton.icon(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    _launchViber(
+                                        'https://invite.viber.com/?g2=AQAmvXtYaOXJSktBo5ZGUatVwyaa1K7KXkDWLWdMyKJfMs8GbSnY5IplkYNTC3iu&lang=en');
+                                  },
                                   color: Colors.blue,
                                   shape: RoundedRectangleBorder(
                                       borderRadius:
                                           BorderRadius.circular(30.0)),
-                                  icon: const Icon(
-                                    Icons.chat_bubble,
+                                  icon: FaIcon(
+                                    FontAwesomeIcons.viber,
                                     color: Colors.white,
+                                    // size: size.longestSide * 0.02,
                                   ),
                                   label: Text(
-                                    'Send SMS',
+                                    'Viber',
                                     style: TextStyle(
                                       fontSize: 16,
                                       fontWeight: FontWeight.bold,
@@ -134,7 +165,7 @@ class DetailPage extends StatelessWidget {
                         width: 10.0,
                       ),
                       Text(
-                        user.experience,
+                        widget.user.experience,
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.normal,
@@ -157,7 +188,7 @@ class DetailPage extends StatelessWidget {
                         width: 10.0,
                       ),
                       Text(
-                        user.presentCity,
+                        widget.user.presentCity,
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.normal,
@@ -180,7 +211,7 @@ class DetailPage extends StatelessWidget {
                         width: 10.0,
                       ),
                       Text(
-                        user.hospital,
+                        widget.user.hospital,
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.normal,
@@ -203,7 +234,7 @@ class DetailPage extends StatelessWidget {
                         width: 10.0,
                       ),
                       Text(
-                        user.email,
+                        widget.user.email,
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.normal,
@@ -226,7 +257,7 @@ class DetailPage extends StatelessWidget {
                         width: 10.0,
                       ),
                       Text(
-                        user.contact,
+                        widget.user.contact,
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.normal,

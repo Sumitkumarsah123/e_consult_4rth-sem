@@ -1,8 +1,3 @@
-//import 'package:demo3/home/home.dart';
-//import 'package:firebase_auth/firebase_auth.dart';
-
-//import 'package:demo3/home/home.dart';
-//import 'package:demo3/services/usermngmt.dart';
 import 'package:demo3/setup/patient/patient_login.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -44,7 +39,7 @@ class _RegisterState extends State<Register> {
                   FadeAnimation(
                       1,
                       Text(
-                        "Patient Register",
+                        " Register",
                         style: TextStyle(color: Colors.white, fontSize: 40),
                       )),
                   SizedBox(
