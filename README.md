@@ -16,3 +16,6 @@ development, Android Studio, alongside Visual Studio Code were used as our IDE
 and Firebase as our database. We further used API’s for smoother and faster
 functioning of the mobile application.
 
+
+![covid-19](https://user-images.githubusercontent.com/49742337/99900381-35f87c00-2cd7-11eb-9d22-ed3b3a4f2818.PNG)
+
